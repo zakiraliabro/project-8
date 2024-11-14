@@ -1,0 +1,453 @@
+body {
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#logo {
+    height: 85px;
+    width: 220px;
+}
+
+.top-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 32px;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+.nav-value {
+    text-decoration: none;
+    color: white;
+    padding-left: 12px;
+    font-variant: small-caps;
+}
+
+.nav-value:hover {
+    color: #bfc500;
+}
+
+.banner {
+    background-image: url(./banner.jpg);
+
+    background-size: cover;
+    height: 1100px;
+}
+
+.main {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.main-sub {
+    /* text-align: right;
+    color: white; */
+    width: 20%;
+
+}
+
+.img-div {
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.main-sub-1 {
+    width: 70%;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.sub-img {
+
+    width: 40%;
+    height: 50%;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+#headding {
+    color: #bfc500;
+    font-size: 25.6px;
+}
+
+.wellcome {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p {
+    color: white;
+}
+
+#note {
+    color: whitesmoke;
+
+    font-size: 9px;
+    width: 15%;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+
+}
+
+.main-2 {
+    background-color: #bfc500;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-top: 10px;
+}
+#button:hover{
+    color: black;
+    background-color: white;
+    font-weight: 800;
+}
+#button {
+    color: #bfc500;
+    height: 70px;
+    width: 150px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+}
+
+#headding-1 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#headding-2 {
+    color: black;
+    flex-basis: 350px;
+}
+.headding-4{
+word-spacing: 5px;
+}
+
+.main-3 {
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+}
+
+.main-sub-3 {
+    width: 50%;
+}
+
+#mynn {
+
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.bayc {
+    font-size: 17px;
+    font-family: Arial;
+    color: rgb(148, 145, 145);
+}
+
+h1 {
+    color: white;
+}
+
+.nyn {
+    color: #bfc500;
+}
+
+.break-link {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.main-card {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-holder {
+    width: 150px;
+}
+
+.icon {
+    width: 100px;
+    height: 130px;
+}
+
+.card-text {
+
+    font-size: .8em;
+    text-wrap: wrap;
+    font-weight: 100;
+}
+
+.main-5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 12px;
+}
+
+.sub-main51 {
+    width: 61%;
+}
+
+#tol {
+    width: 170px;
+    height: 300px;
+}
+
+.headding-3 {
+    word-spacing: 5px;
+}
+
+.text-wrap {
+    width: 68%;
+}
+
+.main6 {
+    display: flex;
+    margin-top: 40px;
+   
+}
+.main-sub-6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: normal;
+}
+
+.list-text {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.haddin-1 {
+    font-size: 16px;
+    color: rgb(191, 197, 0);
+    margin-right: 60px;
+}
+
+
+.image {
+    height: 350px;
+    background-color: rgb(191, 197, 0);
+} 
+
+#para-1{
+width: 55%;
+}
+
+#para-2{
+    width: 70%;
+}
+
+/* // Screen Size 1400px check */
+@media (max-width: 1660px) {
+    .sub-img {
+        width: 46%;
+        height: 44%;
+        padding-right: 11px;
+        padding-bottom: 14px;
+    }
+    .bayc {
+        width: 76%;
+    }
+    
+
+  }
+
+
+/* // Screen Size 1200px check */
+@media (max-width: 1399px) {
+    
+    .banner {
+        height: 670px;
+    }
+
+    #para-1 {
+        width: 65%;
+    }
+    .main-1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 12px;
+    }
+    #note {
+        font-size: 10px;
+        width: 28%;
+    }
+    
+    
+    
+    
+}
+
+/* // Screen Size 992px check */
+@media (max-width: 1199px) {
+body{
+   padding-left: 0px;
+   padding-right: 0px; 
+}
+    .banner {
+        height: 489px;
+    }
+    .img-div {
+        width: 54%;
+    }
+    .main-2 {
+        display: flex;
+        align-items: center;
+         padding-bottom: 8px; 
+         padding-left: 8px; 
+         padding-right: 8px;
+         width:100%; 
+    }
+    .main-card {
+        padding: 20px;
+    }
+    .text-wrap {
+        width: 100%;
+    }
+    #headding-2 {
+      width: 100%;
+      height: 50%;
+      flex-basis: 1000px;
+    }
+    #headding-1 {
+        height: 20%; 
+        width:82%;
+    }    
+    #button {
+        height: 70px;
+        width: 350px;
+    }
+    .main-sub-6 {
+        font-size: 15px;
+    }
+    .headding-3 {
+        font-size: 15px;
+    }
+
+    .sub.img{
+       height: 55%;
+    }
+}
+
+/* // Screen Size 768px check// */
+@media (max-width: 991px) {
+    .main-sub-1 {
+        width: 100%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+      .bayc {
+        width: 100%;
+    }
+    .img-div {
+        width: 80%;
+        
+    }
+    .main-sub-3 {
+        width: 100%;
+
+    }
+    .main-3 {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;   
+    }
+    #mynn {
+        width: 50%;
+    }
+
+    .re-headding{
+        text-align: center;
+    }
+    .main-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;   
+        justify-content: center;
+    }
+    #note {
+        font-size: 10px;
+    }
+    .main-2 {
+        padding-left: 14px;
+        padding-right: 10px;
+        width: 96%;
+    }
+    #headding-1 {
+        font-size: 17px;
+
+    }
+    #button {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+    .main-4{
+        text-align: center;
+    }
+    #para-2 {
+        width: 100%;
+    }
+}
+
+/* // Screen Size 576px check */
+@media (max-width: 767px) {
+    .main-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main6 {
+        display: flex;
+        flex-direction: column;
+    }
+    #last-CENTENT{
+      text-align: center;
+    }
+}
+
+
+/* // Screen Size All mobile check */
+@media (max-width: 575px) {
+    
+}
